@@ -13,7 +13,7 @@ for line in fh:
 
 l_count = None # creating an empty value to print the largest recurrent email number
 l_email = None # creating an empty value to print the largest recurrent email address
-# for every counted email and # of recurrence looking at their key (email address) and values (counted emails)
+# for every counted email and # of recurrence looking at their key(email address) and values(counted emails)
 for e_number, count in dicts.items():
     if l_count is None or count > l_count: # if largest count has no value or is > count
         l_count = count
